@@ -18,7 +18,7 @@ Hello, I'm **Noel Choge**, and my passion lies in cloud computing and AWS.
 **Description:**  
 Hosting a static website on AWS S3. This project demonstrates the use of AWS services to host a simple, fast-loading website.
 
-**Technologies Used:**  
+**Services Used:**  
 - **AWS S3**: For hosting static files.  
 
 **Key Features:**  
