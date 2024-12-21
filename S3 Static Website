@@ -1,25 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My AWS S3 Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 20%;
-        }
-        h1 {
-            color: #232f3e;
-        }
-        p {
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <h1>Welcome to My AWS S3 Website</h1>
-    <p>This website is hosted on AWS S3.</p>
-</body>
-</html>
+# S3 Static Website Hosting
+
+This project demonstrates how to host a static website on AWS S3. Follow the steps below to set up your website:
+
+## Steps to Host
+1. **Create an S3 Bucket**
+   - Go to the AWS Management Console and create a new bucket.
+   - Enable public access for the bucket.
+
+2. **Enable Static Website Hosting**
+   - Navigate to the "Properties" tab of your bucket.
+   - Enable static website hosting and set `index.html` as the default document.
+
+3. **Upload Files**
+   - Upload the `index.html` and `error.html` files to the bucket.
+
+4. **Set Bucket Policy**
+   - Add a policy to make the bucket publicly accessible.
+
+5. **Access the Website**
+   - Use the S3 endpoint provided in the static website hosting settings.
+
+Enjoy your static website hosted on AWS S3!
