@@ -58,3 +58,6 @@ Navigate to the "Properties" tab and load the bucket's endpoint. The "index.html
 In case of an error (e.g., the index file is not available), the "error.html" page will be returned at the endpoint.
 
 ---
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/f1073f93-595e-47f4-b230-19736cab8d75" />
+
