@@ -1,6 +1,6 @@
 # **AWS Projects Portfolio**
 
-Welcome to my AWS Projects Portfolio! This repository is a showcase of my proficiency in leveraging various AWS services to design, deploy, and manage cloud-based solutions.
+Welcome to my AWS Projects Portfolio! This repository is a showcase of my proficiency in leveraging various AWS services.
 
 ---
 
@@ -16,7 +16,7 @@ Welcome to my AWS Projects Portfolio! This repository is a showcase of my profic
 
 ## **About Me**
 
-Hello, I'm **Noel Choge**, and my passion lies in cloud computing and AWS. This portfolio highlights my ability to leverage AWS services to build scalable, secure, and efficient cloud solutions.
+Hello, I'm **Noel Choge**, and my passion lies in cloud computing and AWS.
 
 ---
 
