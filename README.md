@@ -24,5 +24,6 @@ Hosting a static website on AWS S3. This project demonstrates the use of AWS ser
 **Key Features:**  
 - Serverless architecture for high availability and cost efficiency.  
 - Simple configuration for hosting static content such as HTML, CSS, and JavaScript files.
-  
+
+  [S3 Static Website/README.md](url)
 ---
