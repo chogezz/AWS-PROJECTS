@@ -4,13 +4,6 @@ Welcome to my AWS Projects Portfolio! This repository is a showcase of my profic
 
 ---
 
-## **Table of Contents**
-
-1. [About Me](#about-me)
-2. [Projects Overview](#projects-overview)
-   - [Project 1: S3 Static Website](#project-1-s3-static-website)
-
----
 
 ## **About Me**
 
