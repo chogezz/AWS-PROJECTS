@@ -1,4 +1,4 @@
-**A SINGLE EC2 INSTANCE**
+**LAUNCH A SINGLE EC2 INSTANCE**
 ---
 *Intro*
 ---
