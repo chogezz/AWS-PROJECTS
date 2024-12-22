@@ -43,5 +43,5 @@ Launching an EC2 instance on a public subnet accessible over the internet via ss
 **Key Features:**
 - Easy internet access as the public ip and internet gateway offer direct access.
 - Customisable resources which offers flexibility.
-  
+--- 
 ---
