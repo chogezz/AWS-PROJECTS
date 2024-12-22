@@ -12,6 +12,7 @@ I'm **Noel Choge**, and I'm passionate about emerging technologies specifically 
 ---
 
 ## **Projects**
+---
 
 ## **Project 1: S3 Static Website**
 
