@@ -25,8 +25,6 @@ Hosting a static website on AWS S3. This project demonstrates the use of AWS ser
 - Simple configuration for hosting static content such as HTML, CSS, and JavaScript files.
 - Ideal for application in single page websites such as landing pages for marketing campaigns or service businesses.
 
-  https://github.com/chogezzz/AWS-PROJECTS/tree/1dfbf3648120c33364653d559993c6657fcbc3b4/S3%20Static%20Website
-
 ---
 
 ## **Project 2:Launch EC2 Instance**
