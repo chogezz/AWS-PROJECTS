@@ -13,7 +13,7 @@ I'm **Noel Choge**, and I'm passionate about emerging technologies specifically 
 
 ## **Projects**
 
-### **Project 1: S3 Static Website**
+## **Project 1: S3 Static Website**
 
 **Description:**  
 Hosting a static website on AWS S3. This project demonstrates the use of AWS services to host a simple, fast-loading website.
