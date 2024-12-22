@@ -7,7 +7,7 @@ Welcome to my AWS Projects Portfolio! This repository is a showcase of my profic
 
 ## **About Me**
 
-Hello, I'm **Noel Choge**, and I'm passionate about emerging technologies specifically in the Cloud.
+I'm **Noel Choge**, and I'm passionate about emerging technologies specifically in the Cloud.
 
 ---
 
