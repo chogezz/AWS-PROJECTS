@@ -1,1 +1,18 @@
+#Navigates to downloads folder
+ cd "C:\Users\noelc\Downloads" 
 
+#Sets permission so only admin can read the file
+ icacls "lab-002.pem" /inheritance:r
+ icacls "lab-002.pem" /grant:r "noelc:(R)"
+
+#Upload file into ec2 instance using scp
+ scp -i "C:\Users\noelc\Downloads\lab-002.pem" lab-002.pem ec2-user@98.81.106.109:/home/ec2-user/
+
+#Connects to ec2 instance
+ ssh -i "lab-002.pem" ec2-user@98.81.106.109
+
+#Permission to restrict access to the private key file
+ chmod 400 lab-002.pem
+
+#Check permissions have been applied
+ ls -l lab-01.pem
