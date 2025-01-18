@@ -1,5 +1,7 @@
 **HTTP APPLICATION LOAD BALANCER**
 ---
+![image](https://github.com/user-attachments/assets/14e82bc5-14c8-4263-8794-9862412d4b1e)
+
 *Intro*
 ---
 
