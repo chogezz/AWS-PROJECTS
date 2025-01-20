@@ -76,30 +76,21 @@ Deploying a WordPress website on AWS EC2 using the WordPress AMI for a quick and
 
 **Steps to Implement:**  
 1. **Create a VPC**: A custom VPC (`wordpress-vpc`) with CIDR block `192.168.0.0/16`.  
-2. **Create an Internet Gateway**: Attach the Internet Gateway (`wordpress-gateway`) to the VPC.  
-3. **Create a Public Subnet**: A subnet (`public-subnet`) with CIDR block `192.168.100.0/24` and enable auto-assign IPv4.  
+2. **Create an Internet Gateway**: Attach the Internet Gateway (`wordpress-internet-gw`) to the VPC.  
+3. **Create a Public Subnet**: A subnet (`wordpress-subnet`) with CIDR block `192.168.100.0/24` and enable auto-assign IPv4.  
 4. **Create a Route Table**: Add a default route to the Internet Gateway and associate it with the public subnet.  
-5. **Launch EC2 Instance**: Launch a WordPress EC2 instance using the WordPress AMI. Assign the instance to the public subnet, with a security group allowing HTTP, HTTPS, and SSH traffic.  
+5. **Launch EC2 Instance**: Launch a WordPress EC2 instance using the WordPress AMI. Assign the instance to the public subnet, with a security group allowing HTTP , and SSH traffic.  
 6. **Connect to EC2 Instance**: Use SSH to access the instance and complete the WordPress installation via the public IP.  
-7. **Configure WordPress**: Set up site title, admin credentials, and other WordPress settings.  
+7. **Configure WordPress**: Set up site title.  
 8. **Access WordPress**: Log in to the WordPress admin dashboard and customize the website.
 
-**Technologies Used:**  
+**Services Used:**  
 - **AWS Services**: VPC, Subnet, Internet Gateway, EC2  
 - **Software**: WordPress AMI (pre-configured for WordPress hosting)  
 - **Operating System**: Included with the WordPress AMI  
 
 **Outcome:**  
 A fully functional WordPress server deployed on AWS EC2 using the WordPress AMI, providing a reliable and scalable platform for dynamic websites.
-
----
-
-## Technologies Used
-
-- **AWS Services**: VPC, EC2, S3, Load Balancer, Internet Gateway
-- **Software**: WordPress, Amazon Linux 2
-- **Operating System**: Managed via AMIs
-
 ---
 
 **Author**  
