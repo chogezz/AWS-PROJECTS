@@ -91,6 +91,7 @@ Deploying a WordPress website on AWS EC2 using the WordPress AMI for a quick and
 
 **Outcome:**  
 A fully functional WordPress server deployed on AWS EC2 using the WordPress AMI, providing a reliable and scalable platform for dynamic websites.
+
 ---
 
 **Author**  
