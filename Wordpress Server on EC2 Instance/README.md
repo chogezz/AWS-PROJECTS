@@ -17,19 +17,19 @@ Deploying a WordPress server on AWS EC2 using the WordPress AMI for quick and se
 
 2. **Create Internet Gateway**
    
-   - Name the Internet Gateway: `wordpress-gateway`.
+   - Name the Internet Gateway: `wordpress-int-gw`.
    - Attach it to the `wordpress-vpc` VPC.
 
 3. **Create a Public Subnet**
    
-   - Create a Public Subnet within the `wordpress-vpc` VPC.
-   - Name the subnet: `public-subnet`.
+   - Created a Public Subnet within the `wordpress-vpc` VPC.
+   - Named the subnet: `wordpress-subnet`.
    - Assign IPv4 CIDR Block: `192.168.100.0/24`.
    - Enable Auto-assign IPv4 in the subnet.
 
 4. **Create a Route Table**
    
-   - Name the Route Table: `public-route`.
+   - Name the Route Table: `public-rt`.
    - Add a default gateway route to the Internet Gateway created earlier.
 
 5. **Associate the Route to the Public Subnet**
@@ -40,21 +40,18 @@ Deploying a WordPress server on AWS EC2 using the WordPress AMI for quick and se
 6. **Launch a WordPress EC2 Instance**
    
    - Launch an EC2 instance using the **WordPress AMI** from the AWS Marketplace.
-   - Assign the instance to the Public Subnet.
-   - Configure the security group to allow HTTP (port 80), HTTPS (port 443), and SSH (port 22) traffic.
+   - Assign the instance to the Wordpress Subnet.
+   - Configure the security group to allow HTTP (port 80) , and SSH (port 22) traffic.
    - Create and download a new key pair for SSH access.
 
 7. **Configure WordPress**
    
    - Connect to the EC2 instance via SSH:
      ```
-     ssh -i wordpress-key.pem ec2-user@<Public-IP-of-Instance>
+     ssh -i "wordpress-sg.pem" ec2-user@44.222.208.236
      ```
    - Access the WordPress setup interface by opening the public IP of the instance in a browser.
-   - Complete the WordPress installation process by providing details like:
-     - Site title
-     - Admin username and password
-     - Email address
+   - Complete the WordPress installation process.
 
 8. **Access WordPress**
 
@@ -69,7 +66,7 @@ A fully functional WordPress server is deployed on AWS EC2 using the WordPress A
 
 ---
 
-**Technologies Used**
+**Services Used**
 - **AWS Services**: VPC, Subnet, Internet Gateway, EC2
 - **Software**: WordPress AMI (pre-configured for WordPress hosting)
 - **Operating System**: Included with the WordPress AMI
