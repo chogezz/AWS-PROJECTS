@@ -1,5 +1,3 @@
----
-
 # AWS Projects Portfolio
 
 Welcome to my **AWS Projects Portfolio**! This repository showcases my proficiency in leveraging various AWS services to build scalable and efficient cloud-based solutions.
