@@ -42,3 +42,65 @@ Launching an EC2 instance on a public subnet accessible over the internet via ss
 **Key Features:**
 - Easy internet access as the public ip and internet gateway offer direct access.
 - Customisable resources which offers flexibility.
+
+---
+
+# Project 3: HTTP Application Load Balancer Setup
+
+## Introduction
+This project demonstrates configuring an **Application Load Balancer (ALB)** on AWS to distribute traffic across two web servers in different Availability Zones, ensuring high availability and redundancy.
+
+---
+
+## Steps to Implement
+
+1. **Create a VPC**
+   - Name: `lab-005`.
+   - IPv4 CIDR Block: `192.168.0.0/16`.
+
+2. **Create Subnets**
+   - Two subnets in different Availability Zones.
+   - Enable Auto-assign IPv4.
+
+3. **Internet Gateway**
+   - Name: `lab-005`.
+   - Attach to the `lab-005` VPC.
+
+4. **Modify Route Table**
+   - Add default route to Internet Gateway.
+   - Associate both subnets with the route table.
+
+5. **Launch EC2 Instances**
+   - Two `t2.micro` instances, one per subnet.
+   - Allow inbound SSH and HTTP traffic.
+   - Use a startup script to install an HTTP server.
+
+6. **Create an Application Load Balancer**
+   - Name: `lab-005`.
+   - Use created subnets and security group.
+   - Target group: `lab-005`, HTTP, Port 80.
+   - Add both EC2 instances to the target group.
+
+7. **Testing**
+   - Use the load balancer DNS name to verify traffic distribution across instances.
+
+---
+
+## Outcome
+The ALB successfully distributes traffic between two web servers, ensuring high availability and fault tolerance.
+
+---
+
+## Technologies Used
+- **AWS Services**: VPC, Subnets, Internet Gateway, EC2, Application Load Balancer
+- **Instance Type**: t2.micro
+- **Operating System**: Amazon Linux 2
+
+---
+
+## Author
+**Noel Choge**
+- Cloud Practitioner
+- Youth Mentor
+- Tech Enthusiast
+
