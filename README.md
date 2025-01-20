@@ -1,4 +1,3 @@
-Here’s a more consistent version of your README:
 
 ---
 
