@@ -101,6 +101,4 @@ The ALB successfully distributes traffic between two web servers, ensuring high 
 ## Author
 **Noel Choge**
 - Cloud Practitioner
-- Youth Mentor
-- Tech Enthusiast
 
